@@ -127,5 +127,12 @@ SELECT * FROM Student WHERE Student.`college`='计算机学院'
 AND  EXISTS(SELECT * FROM Student WHERE college='计算机学院')
 AND NAME <> '张三';
 #32
+SELECT SNO,Score FROM Choose WHERE
+Score <(SELECT score FROM Choose WHERE SNO='S00001' AND CourseID='C1')
+AND CourseID='C1';
 #33
+SELECT SNO FROM Choose WHERE CourseID='C1'
+UNION
+SELECT SNO FROM Choose WHERE CourseID='C3';
 #34
+SELECT DISTINCT SNO FROM choose WHERE CourseID='C1' OR CourseID='C3';
