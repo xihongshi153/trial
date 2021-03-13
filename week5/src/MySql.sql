@@ -25,9 +25,7 @@ ALTER TABLE ChooseBe ADD Bb4 VARCHAR(20) NOT NULL DEFAULT'系统测试值';
 #5
 ALTER TABLE ChooseBe ADD Bb5 VARCHAR(10) PRIMARY KEY;
 #6
-
 #7
-
 #8
 #9
 #10
@@ -116,3 +114,18 @@ SELECT COUNT(*) FROM Student;
 SELECT MAX(C1),MIN(C1),SUM(C1),AVG(C1) FROM Choose;
 #29
 SELECT CourseID,CourseName FROM Course WHERE CourseBeforeID IS NULL;
+#30
+SELECT
+	Student.`SNO`,Student.`Name`,Course.`CourseName`,Choose.`Score`
+FROM
+	Student JOIN Choose,Course
+WHERE
+	Student.`SNO`=Choose.`SNO` AND Course.`CourseID`=Choose.`CourseID`
+;
+#31
+SELECT * FROM Student WHERE Student.`college`='计算机学院'
+AND  EXISTS(SELECT * FROM Student WHERE college='计算机学院')
+AND NAME <> '张三';
+#32
+#33
+#34
