@@ -25,9 +25,17 @@ ALTER TABLE ChooseBe ADD Bb4 VARCHAR(20) NOT NULL DEFAULT'系统测试值';
 #5
 ALTER TABLE ChooseBe ADD Bb5 VARCHAR(10) PRIMARY KEY;
 #6
+CREATE VIEW Choosebb (View_bb1，View_bb2，view_bb3) AS
+SELECT (Bb1,Bb4,Bb5) FROM ChooseBb;
 #7
+DROP VIEW Choosebb;
 #8
+CREATE INDEX index_bb2
+ON ChooseBb(Bb2) ;
+CREATE INDEX index_bb4
+ON ChooseBb(Bb4 DESC) ;
 #9
+DROP INDEX index_bb2 ON ChooseBb;
 #10
 CREATE TABLE test(
 NAME VARCHAR(20),
