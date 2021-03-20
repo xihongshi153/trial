@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class java_task {
     public static void main(String[] args) {
-        int[] num={5,6,7,4,3,5,2,4,1,1,96,9};
+        int[] num={5,6,3,5,96,7,8,9,4,1,65,4,25,4,5,55,5};
         System.out.println(Arrays.toString(charu(num)));
 
     }
@@ -29,11 +29,12 @@ public class java_task {
                     num[0]=key;
                     break;
                 }
-                if(key<num[j-1]){
-                    num[j]=num[j-1];
+                if(key<num[j-1]) {
+                    num[j] = num[j - 1];
                 }
                 if(key>num[j-1]){
                     num[j]=key;
+                    break;
                 }
             }
         }
