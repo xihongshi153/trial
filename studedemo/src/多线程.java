@@ -1,15 +1,14 @@
 public class 多线程 {
     public static void main(String[] args) {
-
         Person per=new Person();
         per.start();
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 5; i++){
             System.out.println("main-->"+i);
         }
     }
 }
 
-class Person extends Thread{
+class Person extends Thread {
     private String name1;
 
     public Person() {
