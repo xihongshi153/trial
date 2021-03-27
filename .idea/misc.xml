@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/week7/pom.xml" />
         <option value="$PROJECT_DIR$/week7_mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/week7_JDBC/pom.xml" />
       </list>
     </option>
   </component>

@@ -9,7 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/week4/week4.iml" filepath="$PROJECT_DIR$/week4/week4.iml" />
       <module fileurl="file://$PROJECT_DIR$/week5/week5.iml" filepath="$PROJECT_DIR$/week5/week5.iml" />
       <module fileurl="file://$PROJECT_DIR$/week6/week6.iml" filepath="$PROJECT_DIR$/week6/week6.iml" />
-      <module fileurl="file://$PROJECT_DIR$/week7_mybatis/week7_mybatis.iml" filepath="$PROJECT_DIR$/week7_mybatis/week7_mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week7_JDBC/week7_JDBC.iml" filepath="$PROJECT_DIR$/week7_JDBC/week7_JDBC.iml" />
     </modules>
   </component>
 </project>
