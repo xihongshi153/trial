@@ -19,7 +19,7 @@ public class AccountService {
         accountDao = session.getMapper(AccountDao.class);
     }
     // 1查询所有记录
-    public List<Account> findAll() {
+    public List<com.entity.Account> findAll() {
         return accountDao.findAll();
     }
     // 2通过id删除记录
