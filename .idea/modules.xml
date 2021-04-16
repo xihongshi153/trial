@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/week9_springboot/demo.iml" filepath="$PROJECT_DIR$/week9_springboot/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/trial.iml" filepath="$PROJECT_DIR$/trial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week10java/week10java.iml" filepath="$PROJECT_DIR$/week10java/week10java.iml" />
       <module fileurl="file://$PROJECT_DIR$/week2/week2.iml" filepath="$PROJECT_DIR$/week2/week2.iml" />
       <module fileurl="file://$PROJECT_DIR$/week3/week3.iml" filepath="$PROJECT_DIR$/week3/week3.iml" />
       <module fileurl="file://$PROJECT_DIR$/week4/week4.iml" filepath="$PROJECT_DIR$/week4/week4.iml" />
@@ -12,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/week7_java/week7_java.iml" filepath="$PROJECT_DIR$/week7_java/week7_java.iml" />
       <module fileurl="file://$PROJECT_DIR$/week8_java/week8_java.iml" filepath="$PROJECT_DIR$/week8_java/week8_java.iml" />
       <module fileurl="file://$PROJECT_DIR$/week8_springboot/week8_springboot.iml" filepath="$PROJECT_DIR$/week8_springboot/week8_springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week9_java/week9_java.iml" filepath="$PROJECT_DIR$/week9_java/week9_java.iml" />
     </modules>
   </component>
 </project>
