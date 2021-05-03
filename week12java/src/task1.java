@@ -1,15 +1,16 @@
-public class task2 {
-    public static void main(String[] args) {
-        ListNode l11=makeList(new ListNode(1));
-        ListNode l12=makeList(new ListNode(2),l11);
-        ListNode l13=makeList(new ListNode(4),l12);
-        ListNode l14=makeList(new ListNode(5),l13);
-        ListNode l15=makeList(new ListNode(6),l14);
-        ListNode l16=makeList(new ListNode(7),l15);
 
-        ListNode l21=makeList(new ListNode(1));
-        ListNode l22=makeList(new ListNode(3),l21);
-        ListNode l23=makeList(new ListNode(4),l22);
+public class task1 {
+    public static void main(String[] args) {
+        ListNode l11=makeNode.makeNode(new ListNode(1));
+        ListNode l12= makeNode.makeNode(new ListNode(2),l11);
+        ListNode l13= makeNode.makeNode(new ListNode(4),l12);
+        ListNode l14= makeNode.makeNode(new ListNode(5),l13);
+        ListNode l15= makeNode.makeNode(new ListNode(6),l14);
+        ListNode l16= makeNode.makeNode(new ListNode(7),l15);
+
+        ListNode l21= makeNode.makeNode(new ListNode(1));
+        ListNode l22= makeNode.makeNode(new ListNode(3),l21);
+        ListNode l23= makeNode.makeNode(new ListNode(4),l22);
         ListNode newln=mergeTwoLists(l11,l21);
 
         while (newln!=null){
@@ -37,17 +38,7 @@ public class task2 {
         }
         return l1;
     }
-    //创建首个节点
-    public static ListNode makeList(ListNode listNode){
 
-        return listNode;
-    }
-    //创建节点
-    public static ListNode makeList(ListNode listNode,ListNode pre){
-        listNode.previous=pre;
-        pre.next=listNode;
-        return listNode;
-    }
     //插入节点
     public static void insertList(ListNode listNode,ListNode pre){
         ListNode next=pre.next;
