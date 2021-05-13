@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class task2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        HashSet<String> set=new HashSet<String>();
+        HashSet<String> set=new HashSet<>();
         StringBuffer str=new StringBuffer(in.nextLine());
         for(int i=1;i<str.length()+1;i++){
             Fun(set,str,i);
